@@ -1,0 +1,1 @@
+<view class="rate-content"><uni-rate vue-id="1" text="1" size="34" margin="10" value="{{rateValue}}" data-event-opts="{{[['^change',[['rateChange']]]]}}" bind:change="__e" bind:__l="__l"></uni-rate><view class="rate-tips">{{rateTitleArr[rateValue-1]}}</view></view>
