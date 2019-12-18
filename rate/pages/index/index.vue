@@ -6,7 +6,7 @@
 </template>
 
 <script>
-	import uniRate from '@/components/rate/uni-rate'
+	import uniRate from '@/components/rate/uni-rate.vue'
 	export default {
 		components:{uniRate},
 		data() {
